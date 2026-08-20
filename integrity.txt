@@ -1,3 +1,5 @@
 ## Build Integrity Test file!
 
-Test one trigger
+Test one trigger!
+
+Test two triggers!
