@@ -22,5 +22,5 @@ jobs:
           fetch-depth: 0
       - name: Run Scorecard Help to Test Functonality
         run: |
-        scorecard --help
-        echo "A new Repository source detected in integrity folder"
+          scorecard --help
+          echo "A new Repository source detected in integrity folder"
