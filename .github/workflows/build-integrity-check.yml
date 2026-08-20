@@ -24,4 +24,4 @@ jobs:
       - name: Run Scorecard Help to Test Functonality  
       - run: |
         scorecard --help
-        echo "A new Repository source detected in integrity folder"
+        #echo "A new Repository source detected in integrity folder"
