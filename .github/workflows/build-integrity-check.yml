@@ -5,7 +5,7 @@ on:
     branches:
       - 'test-build-integrity'
     paths:
-      - 'build-integrity/integrity.txt'
+      - 'build-integrity/test/integrity.txt'
 
 jobs:
   build:
