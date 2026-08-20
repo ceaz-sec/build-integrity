@@ -3,3 +3,5 @@
 Test one trigger!
 
 Test two triggers!
+
+Test three triggers!
