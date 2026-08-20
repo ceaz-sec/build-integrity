@@ -1,0 +1,16 @@
+name: Build Integrity Pipeline Test
+
+on: 
+  push:
+    branches:
+      - 'test-build-integrity'
+    path: 'build-integrity/integrity.txt'
+
+jobs:
+  build:
+    runs-on: ghcr.io/ossf/scorecard:latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+        scorecard --help
+        echo "A new Repository source detected in integrity folder"
