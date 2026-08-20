@@ -18,7 +18,8 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
-        with: fetch-depth: 0
+        with: 
+          fetch-depth: 0
 
       - name: Run Scorecard Help to Test Functonality  
       - run: |
