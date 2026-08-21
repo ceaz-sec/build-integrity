@@ -11,3 +11,5 @@ Test four triggers!
 Test Five triggers!
 
 Test Six triggers!
+
+Test Seven triggers!
