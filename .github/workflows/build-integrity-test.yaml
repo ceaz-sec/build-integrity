@@ -22,5 +22,5 @@ jobs:
       
       - name: Run Scorecard Help to Test Functonality
         run: |
-          scorecard --help
+          docker run --rm ghcr.io/ossf/scorecard:latest --help
           echo "A new Repository source detected in integrity folder"
